@@ -1,0 +1,231 @@
+body {
+  background-size: cover;
+  background-image: url('bg.gif');
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover,
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+.none {
+  display: none;
+}
+.notopmargin {
+  margin-top: 20px !important;
+}
+p {
+  font-family: 'raleway';
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+}
+.fullscreen {
+  width: 100%;
+  height: 100%;
+}
+.inner {
+  top: 50%;
+  left: 50%;
+  margin-left: -512px;
+  margin-top: -200px;
+  position: absolute;
+  width: 1024px;
+  height: 400px;
+}
+.inner.big {
+  margin-top: -300px;
+  height: 600px;
+}
+.inner .main .projects {
+  width: 420px;
+  height: 150px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.inner .main .projects table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.inner .main .projects table tr {
+  font-family: 'RaleWay';
+}
+.inner .main .projects table tr td#num {
+  color: #fefefe;
+  background-color: #6eaaff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+.inner .main .projects table tr td:last-child {
+  border-right: 3px solid #75edff;
+}
+.inner .main .projects table tr td {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.inner .main .projects table tr td:hover {
+  background-color: #75edff;
+  color: #fff;
+}
+.inner .main .projects table tr td a {
+  width: 100%;
+  line-height: 48px;
+  display: block;
+  color: #8f8f8f;
+  padding-left: 30px;
+}
+
+.inner b {
+  font-size: 14px;
+  font-family: 'Roboto Condensed';
+  color: #757575;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+}
+.inner .btn {
+  background-color: #d63362;
+  display: block;
+  padding: 6px 20px;
+  border-radius: 10px;
+  border-bottom: 3px solid #9e1b40;
+  margin: 20px auto 0 auto;
+  max-width: 190px;
+  cursor: pointer;
+  font-family: 'Roboto Condensed';
+  color: #ebebeb;
+  font-size: 22px;
+  text-align: center;
+  transition: background-color 0.1s ease-in-out;
+}
+.inner .btn:hover {
+  background-color: #ff3b6c;
+  transition: background-color 0.1s ease-in-out;
+}
+.inner .add {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  display: none;
+}
+.inner .add i {
+  font-family: 'Roboto Condensed';
+  color: #6e6e6e;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  margin-top: 10px;
+}
+.inner .add input[type='text'] {
+  display: block;
+  width: 100%;
+  height: 42px;
+  outline: none;
+  border-radius: 0px;
+  background: none;
+  border: 1px solid #9ecede;
+  text-align: center;
+  padding: 14px 0px;
+  margin-top: 5px;
+  color: #777;
+  font-size: 24px;
+  font-family: 'RaleWay';
+  font-weight: bold;
+}
+.inner .details {
+  display: none;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+}
+.projecttree {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+.projecttree .briefdescription {
+  width: 100%;
+  min-height: 60px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #2cafdb;
+  padding: 5px 20px;
+  color: cornflowerblue;
+  font-family: 'Roboto Condensed';
+  border-radius: 5px;
+}
+.projecttree .briefdescription p {
+  margin: 5px 0;
+  font-size: 26px;
+  color: #499eba;
+}
+.projecttree ol i {
+  font-size: 14px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.projecttree ol i:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.projecttree ol {
+  -webkit-user-select: none;
+  color: #2d9cc2 !important;
+  font-family: 'Roboto Condensed';
+  font-size: 28px;
+  list-style: upper-roman;
+  display: block;
+}
+.projecttree ol li input[type='text'] {
+  margin: 0;
+  border: 0;
+  height: 30px;
+  color: #247a96;
+  font-size: 24px;
+}
+.projecttree ol li ol {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  color: #247a96;
+  font-size: 24px;
+  list-style: decimal;
+}
+.projecttree .complete {
+  background: rgba(85, 255, 85, 0.12);
+}
+.projecttree ol li img {
+  margin-left: 12px;
+  width: 20px;
+  height: 20px;
+}
+.projecttree ol li .small {
+  margin-left: 4px;
+  width: 12px;
+  height: 12px;
+}
+.projecttree ol li .medium {
+  margin-left: 6px;
+  width: 16px;
+  height: 16px;
+}
+.projecttree ol li .large {
+  margin-left: 8px;
+  width: 22px;
+  height: 22px;
+}
+.projecttree ol li ol li ol {
+  margin: 6px 0 6px 6px;
+  font-size: 18px;
+  list-style: lower-latin;
+  color: #333;
+}
